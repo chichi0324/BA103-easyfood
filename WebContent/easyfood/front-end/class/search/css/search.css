@@ -1,0 +1,164 @@
+header{
+
+  height: 70px;
+}
+
+header ul{
+  margin: 0;
+}
+
+header a,
+header li{
+  color:#777;
+  font-weight: bold
+}
+
+
+#searchcolor{
+  color: black;
+}
+
+#imgTop{
+  margin-right: 10px;
+  padding-left: 0;
+}
+
+
+
+#navbar-title{
+  color: white;
+  font-family:Microsoft JhengHei;
+}
+
+.navbar-default {
+  background-color: #FF5511;
+  border-color: #FF5511;
+  border-radius: 0;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:white;
+    background-color:#C63300;
+}
+
+
+.firstRow{
+  padding: 30px;
+  background-color: #eee;
+
+}
+
+#address{
+  width:150px;
+}
+
+.keyWord{
+  width:150px;
+}
+
+label{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div .map{
+  margin-top: 30px;
+}
+
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+
+.map_img{
+  width: 95%;
+}
+
+
+div .store{
+  overflow: scroll; 
+  width:100%; 
+  height: 600px;
+  margin-top: 15px;
+  padding:10px;
+} 
+
+div .route{
+   margin-top: 30px;
+}
+
+#route_detail{
+  overflow: scroll; 
+  width:100%; 
+  height: 600px;
+  margin-top: 15px;
+  padding:10px;
+}
+
+.store_select{
+  padding: 10px;
+  border-style: outset;
+  border-width: 5px;
+  margin-top: 5px;
+
+}
+
+
+
+div .store_introduce{
+  margin-top: 10px;
+}
+
+
+
+.store_name{
+   margin-left: 10px;
+}
+
+
+footer{
+  background-color: black;
+  color:lightblue;
+  margin-top: 3em;
+}
+
+footer h5,
+footer img{
+  margin-top: 5em;
+  font-weight: bold;
+}
+
+footer address{
+  margin-top:5em;
+  margin-bottom: 5em;
+  color: #eee;
+}
+
+footer ul{
+  margin-bottom: 5em;
+}
+
+footer address strong{
+  color: lightblue;
+  display: block;
+  padding-bottom: 0.62em
+}
+
+footer a{
+  font-weight: 300;
+  color: white;
+}
+
+footer a : hover{
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+#display_store{
+  margin-bottom: 10px;
+}

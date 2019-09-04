@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+input, textarea {
+	margin-top: 10px;
+	border-radius:3px;
+	width: -webkit-fill-available;
+	line-height: 3;
+	border-style: solid;
+	border-color: #ddd;
+}
+textarea {
+	resize: none;
+	margin-bottom: 1em;
+	border-width: 2px;
+}
+
+button.btn.btn-lg.btn-mybtn {
+	background-color: #e6a54a;
+	color:#fff;
+	margin-top: 10px;
+	width: -webkit-fill-available;
+}
+
+button.btn.btn-lg.btn-primary {
+	width: -webkit-fill-available;
+	background-color: #689dcc;
+	border-color: #689dcc;
+}
+td>button.btn.btn-sm.btn-mybtn {
+	background-color: #e6a54a;
+	color:#fff;
+	margin-top: 10px;
+	width: -webkit-fill-available;
+}
+
+
+.table>tbody>tr>td, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td
+.table>thead>tr>th,
+.table>tbody>tr>th {
+	vertical-align: middle;
+	font-size: middle;
+	color: #61657c;
+}
+.table>thead>tr>th,
+.table>tbody>tr>th {
+	height: 50px;
+	background-color: #906f41;
+	color: #fff;
+}
+
+
+select.form-control {
+	display: inline-block;
+	vertical-align: bottom;
+	height: 3.2em;
+}
+select[multiple], select[size] {
+	height: 2em;
+}
+
+input#file {
+	border-style: hidden;
+}
+
+
+
+

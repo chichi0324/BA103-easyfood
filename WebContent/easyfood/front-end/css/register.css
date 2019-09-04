@@ -1,0 +1,151 @@
+.title{
+	background-image: url(../images/lightBox.jpg);
+	color: white;
+}
+
+#searchcolor{
+	color: black;
+}
+
+#imgTop{
+	margin-right: 10px;
+	padding-left: 0;
+}
+
+header{
+	background-color: #F8F8F8;
+}
+
+header ul{
+	margin: 0;
+}
+
+header a,
+header li{
+	color:#777;
+	font-weight: bold
+}
+
+
+
+.first{
+    padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #eee;
+}
+	  
+.second{
+	    padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.searchdiv{
+	background-image: url(../images/street.png);
+    margin-top: 30px;
+	padding-top: 10%;
+	padding-bottom: 8%;
+	margin-bottom: 30px;
+
+}
+
+.taiwan{
+	margin-top: 30px;
+	background-color: yellow;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	margin-bottom: 20px;
+}
+
+
+.team1{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.teamInside{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.list:hover{
+        color: #FF5511;
+}
+.navbar-default{
+        margin-bottom: 0px;
+}
+
+ body, html{
+        height: 100%;
+        background-repeat: no-repeat;
+        font-family: 'Oxygen', sans-serif;
+        background-color: #EEEEEE;
+      }
+
+      .main{
+        margin-top: 30px;
+      }
+
+      h1.title { 
+        font-size: 50px;
+        font-family: 'Passion One', cursive; 
+        font-weight: 400; 
+      }
+
+      hr{
+        width: 10%;
+        color: #fff;
+      }
+
+      .form-group{
+        margin-bottom: 15px;
+      }
+
+      label{
+        margin-bottom: 15px;
+      }
+
+      input,
+      input::-webkit-input-placeholder {
+          font-size: 14px;
+          padding-top: 3px;
+      }
+
+      .main-login{
+        background-color: #fff;
+          /* shadows and rounded borders */
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+          -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+      }
+
+      .main-center{
+        margin-top: 30px;
+        margin: 0 auto;
+        max-width: 450px;
+        padding: 20px 40px;
+
+      }
+
+      .login-button{
+        margin-top: 5px;
+      }
+
+      .login-register{
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .img{
+        max-width: 150px;
+        max-height: 150px;
+      }
+
+

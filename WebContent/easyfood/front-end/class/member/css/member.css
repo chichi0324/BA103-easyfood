@@ -1,0 +1,132 @@
+
+
+#searchcolor{
+	color: black;
+}
+
+#imgTop{
+	margin-right: 10px;
+	padding-left: 0;
+}
+
+
+
+
+
+.first{
+    padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #eee;
+}
+	  
+.second{
+	    padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.searchdiv{
+	background-image: url(../images/street.png);
+    margin-top: 30px;
+	padding-top: 10%;
+	padding-bottom: 8%;
+	margin-bottom: 30px;
+
+}
+
+.taiwan{
+	margin-top: 30px;
+	background-color: yellow;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	margin-bottom: 20px;
+}
+
+
+.team1{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.teamInside{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer{
+	background-color: black;
+	color:lightblue;
+	margin-top: 3em;
+}
+
+footer h5,
+footer img{
+	margin-top: 5em;
+	font-weight: bold;
+}
+
+footer address{
+	margin-top:5em;
+	margin-bottom: 5em;
+	color: #eee;
+}
+
+footer ul{
+	margin-bottom: 5em;
+}
+
+footer address strong{
+	color: lightblue;
+	display: block;
+	padding-bottom: 0.62em
+}
+
+footer a{
+	font-weight: 300;
+	color: white;
+}
+
+footer a : hover{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.list:hover{
+        color: #FF5511;
+}
+.navbar-default{
+        margin-bottom: 0px;
+}
+.shoppingCart{
+        top: 0; 
+        width: 260px;     
+        z-index: 2;
+}
+
+.order>tbody>tr>td {
+	line-height: 90px;
+}
+
+.table-bordered>tbody>tr>.profile-img {
+	background-color: #F5F5F5;
+}
+
+.profile-img-card {
+	width: 156px;
+	height: 156px;
+	margin: 5px auto 5px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.table-bordered>tbody>tr>.member {
+	/*   background-color:white;*/
+	border-top-color: #00B075;
+	border-top-style: solid;
+	border-top-width: 7px;
+}
+

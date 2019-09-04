@@ -1,0 +1,33 @@
+body{
+/*         background-color: #F5F5F5; */
+      }
+
+     .table-bordered>tbody>tr>.first{
+        background-color:white;
+        border-top-color: #00B075;
+        border-top-style: solid;
+        border-top-width: 7px;
+      }
+      .table-bordered>tbody>tr{
+        background-color:white;
+      }
+      .order{
+        background-color:white;
+      }
+      .fatable{
+        background-color: white;
+        margin-bottom: 1px;
+        width: 100%; 
+        font-size: 18px;
+        
+      }
+      .btn-tb{
+        margin-top: 50px;
+      }
+      .abc{
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        padding:10px;
+      }
+     

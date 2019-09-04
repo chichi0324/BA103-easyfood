@@ -1,0 +1,255 @@
+body {
+	color: #34495E;
+	font-family: "Helvetica Neue",Helvetica,"Microsoft JhengHei";
+}
+.btn {
+	font-size: 20px;
+}
+div.page-header.center-header {
+	margin:0;
+	padding:0;
+	border-style:none;
+	background-image: url(../images/header.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 120px;
+}
+div.page-header.center-header>span {
+	margin-left: 2em;
+	font-weight: bold;
+	font-size: 5em;
+	color: #fff;
+}
+div.page-header.center-header>span>small {
+	font-size: 70%;
+}
+/*navbar custom=======================================*/
+nav.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+nav.navbar>.container .navbar-brand {	/*店家brand*/
+	font-size: 2em;
+}
+nav.navbar-inverse {	/*nav 背景顏色*/
+	background-color: #562209;
+	border-color: #562209;
+}
+nav.navbar-inverse .navbar-nav>.active>a { /*當前頁面顏色*/
+	background-color: #562209;
+	border-radius: 20px;
+	font-size: 1.5em;
+}
+nav.navbar-inverse .navbar-nav>.active>a:hover,
+nav.navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: #672a17;
+}
+nav.navbar-inverse .navbar-nav>li>a { /*其他頁面字體*/
+	font-size: 1.5em;
+}
+nav.navbar-inverse .navbar-nav>.open>a,
+nav.navbar-inverse .navbar-nav>.open>a:hover,
+nav.navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #672a17;
+	border-radius: 20px;
+	font-size: 1.5em;
+}
+nav.navbar-inverse .navbar-toggle {
+	border:none;
+}
+nav.navbar-inverse .navbar-toggle:focus,
+nav.navbar-inverse .navbar-toggle:hover {
+	background-color: #732725;
+}
+/*navbar custom=======================================*/
+ol.breadcrumb {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+ol.breadcrumb>li>a {
+	color: #177bd2;
+    text-decoration: none;
+    font-size: medium;
+}
+ol.breadcrumb>li>a:hover,
+ol.breadcrumb>li>a:focus {
+	color:#9f4abf;
+}
+ol.breadcrumb>.active {
+	font-size: medium;
+}
+ul.dropdown-menu>li>a {
+	color:#34495E;
+	font-size: 16px;
+}
+.modal-title {
+	font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+/*左邊 custom=======================================*/
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	font-size: 24px;
+	text-align: left;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+div.star-heading {
+	display:inline-block;
+	margin-right: 20px;
+	font-size: 16px;
+}
+img.star-content {
+	vertical-align: baseline;
+	display:inline-block;
+}
+div.star-counting {
+	text-align: right;
+	margin-top: 5px;
+	font-size: 16px;
+}
+.btn {
+	font-size: 24px;
+	text-align: left;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+    background-color: #ddd;
+}
+.card:hover,
+.card:focus {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img.card-img {
+    border-radius: 40px;
+	display:inline-block;
+	margin: 10px;
+	background-color: #fff;
+	width: 50px;
+	vertical-align: baseline;
+}
+div.container-card {
+    padding: 2px 16px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+a.blog {
+	color: #34495E;
+}
+a.blog:hover,
+a.blog:focus {
+	color: #926462;
+	text-decoration: none;
+}
+
+/*右邊 custom=======================================*/
+.center-list {
+	margin-top: 2em;
+}
+div.panel-custom>.panel-heading {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.panel-title {
+	font-size: 24px;
+}
+.panel>.list-group,
+.panel>.panel-collapse>.list-group {
+	font-size: 20px;
+}
+.badge {
+	font-weight: bolder;
+	font-size: 18px;
+	color: #f13030;
+	background-color: #f5f5f5;
+}
+
+/*店家中心結束=======================================*/
+
+.login-container {
+	background-color: #eee;
+	height: -webkit-fill-available;
+	padding-top: 3em;
+	padding-bottom: 5em;
+}
+.login-panel {
+	padding-top: 10px;
+	background-color: #fff;
+	border-radius: 1.2em;
+	font-size: x-large;
+}
+
+a.text-success.forget-psw {
+	display:block;
+	text-align:right;
+	font-size: 60%;
+	margin-bottom: 40px;
+}
+a.forget-psw.forget-psw:hover,
+a.forget-psw.forget-psw:focus {
+	text-decoration: none;
+	color: #34495E;
+}
+.btn.btn-success.btn-block.btn-lg.login-btn {
+	font-size: 20px;
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+/*店家登入結束=======================================*/
+.rig-container {
+	margin-bottom: 0;
+	background-color: #eee;
+	padding-top: 3em;
+	height: fit-content;
+	padding-bottom: 5em;
+}
+.rig-panel {
+	padding-top: 10px;
+	background-color: #fff;
+	border-radius: 1.2em;
+	font-size: x-large;
+}
+.rig-form-inline {
+	display: inline-block;
+}
+.input-group-addon:first-child {
+	color: #fff;
+	font-size: 20px;
+	background-color: #A88A68;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-right: 1px solid #ccc;
+}
+li>a.store-func, 
+li>a.store-func:hover, 
+li>a.store-func:focus {
+	text-decoration: none;
+	color: #34495E;
+}
+footer {
+	margin-top: 0;
+}
+
+/*--------------------------------  */
+div.hint {
+ 	color: #bbb;
+ 	font-size: small;
+}
+div.error {
+	color: #e46e46;
+ 	font-size: medium;
+}

@@ -1,0 +1,97 @@
+
+DROP SEQUENCE COM_SQ;
+DROP TABLE COMMUNICATION;
+------------------------------------------------------------------------
+DROP SEQUENCE PRO_SQ;
+DROP TABLE PROMOTION;
+
+----------------------------------------------------------------------
+
+DROP SEQUENCE ADV_SQ;
+DROP TABLE ADVERTISING;
+
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+DROP TABLE ADMPRIVILEGES;
+
+----------------------------------------------------------
+
+DROP SEQUENCE FEA_SQ;
+DROP TABLE FEATURES;
+
+----------------------------------------------------------
+
+DROP SEQUENCE ADM_SQ;
+DROP TABLE ADMINISTRATOR;
+
+----------------------------------------------------------
+
+DROP SEQUENCE SYS_SQ;
+DROP TABLE SYSTEMNOTIFICATION;
+
+
+-------------------------------------------------------------
+
+DROP SEQUENCE BLRE_SQ;
+DROP TABLE BLOGRESPONSE;
+
+
+-------------------------------------------------------------
+
+DROP SEQUENCE REP_SQ;
+DROP TABLE REPORT;
+
+-------------------------------------------------------------
+
+DROP SEQUENCE RA_SQ;
+DROP TABLE REPORTARTICLE;
+
+-------------------------------------------------------------
+
+DROP SEQUENCE BL_SQ;
+DROP TABLE BLOG;
+-------------------------------------------------------------
+
+
+
+
+
+
+DROP SEQUENCE FAV_SQ;
+DROP TABLE FAVORITE;
+------------------------------------------------------------------
+DROP SEQUENCE ADD_SQ;
+DROP TABLE ADDRESS;
+------------------------------------------------------------------
+DROP SEQUENCE ORDIT_SQ;
+DROP TABLE ORDIT;
+---------------------------------------------------------------
+DROP SEQUENCE ORD_SQ;
+DROP TABLE ORD;
+---------------------------------------------------------
+DROP SEQUENCE MEM_SQ;
+DROP TABLE MEMBER;
+----------------------------------------------------------
+
+
+
+
+
+
+DROP SEQUENCE DISH_SQ;
+DROP TABLE DISH;
+
+DROP SEQUENCE DCLA_SQ;
+DROP TABLE DISHCLASS;
+
+DROP SEQUENCE STR_SQ;
+DROP TABLE STORE;
+
+DROP SEQUENCE STOCA_SQ;
+DROP TABLE STORECATEGORY;

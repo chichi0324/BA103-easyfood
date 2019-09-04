@@ -1,0 +1,96 @@
+.table-bordered>tbody>tr>.member {
+	background-color: white;
+	border-top-color: #00B075;
+	border-top-style: solid;
+	border-top-width: 7px;
+}
+
+.table-bordered>tbody>tr, .order {
+	background-color: white;
+}
+
+.order>tbody>tr>td {
+	line-height: 90px;
+}
+
+.breadcrumb {
+	margin-bottom: 0;
+	background-color: white;
+	padding-left: 0;
+}
+
+.affix {
+	top: 51px;
+}
+
+.blog_article {
+	table-layout: fixed;
+word-wrap: break-word;
+	padding: 25px;
+	border-style: groove;
+	border-width: 1px;
+	background-color: white;
+	margin: 15px;
+}
+
+.article {
+	overflow: hidden;
+	height: 150px;
+	padding: 15px;
+}
+
+.blog_title {
+	margin-left: 25px;
+	color: #005599;
+	font-family: Microsoft JhengHei;
+}
+
+.blog_time {
+	margin-left: 25px;
+}
+
+.blog_member{
+margin-left: 25px;
+color:#A42D00;
+}
+
+.res_color{
+	color: grey;
+}
+
+.more {
+	margin: 5px;
+	padding: 5px
+}
+
+div .more_res {
+	margin: 10px;
+	color: grey;
+}
+
+.add_article {
+	padding: 20px;
+}
+
+.input_date {
+	padding: 5px
+}
+
+.article_mag {
+	padding: 20px;
+}
+
+.mag_title {
+	color: blue;
+}
+
+.article_res {
+	padding: 20px;
+}
+
+.response{
+table-layout: fixed;
+word-wrap: break-word;
+width: 500px;
+
+}
