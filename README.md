@@ -16,8 +16,7 @@
 4.add jar (about db...)<br>
 <br>
 5.WebContent/easyfood/front-end/class/search/search.jsp<br>
-line 23 add<br>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>  <br>
+line 24 add<br>
 <script type="text/javascript"
   src="https://maps.googleapis.com/maps/api/js?key=[your google map key]&callback=initMap" async defer>
 </script>  <br>

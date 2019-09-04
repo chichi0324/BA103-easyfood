@@ -20,7 +20,8 @@ String display = (String) request.getAttribute("display");
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
- 
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+         
 
 	</head>
 	<body>
