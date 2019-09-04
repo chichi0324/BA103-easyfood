@@ -7,7 +7,7 @@
 1.generate sql script to database<br>
 (data/sql_script/all.sql)<br>
 2.add line tomcat comtext.xml<br>
-'<Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/TestDB3" password="easyfood" type="javax.sql.DataSource" url="[your database]" username="easyfood"/> '<br>
+<Resource driverClassName=......<br>
 3.add jar (about db...)<br>
 4.search.jsp<br>
 line 23 add<br>
